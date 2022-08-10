@@ -1,9 +1,29 @@
-.gma {
+html {
+    box-sizing: border-box;
+  }
+
+  
+body.background{
+    background-image: url(file:///home/rrives/websites/odinprojects/odin-recipes/img/ester.jpg);
+    background-repeat: no-repeat;
+    background-position: center; background-color: black;
+    
+    
+}
+div .text{
+    color: aqua;
+    font-weight: 400;
+    font-size: larger;
+   
+    
+    
+}
+div .gma {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
-    border: 1px solid #ddd;
+    border: 4px double aqua;
     border-radius: 4px;
     padding: 5px;
 }
@@ -13,13 +33,31 @@
     box-shadow: 0 0 2px 1px red;
 }
 
-div {
+div{
     font-weight: 400;
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.title,
-.splash{
+div .moley, .guisado, .tortilla, .rice, .beans, .juicy, .redchile{
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+
+recp {
+    padding: 10px;
+    margin: 10px;
+}
+
+div .title,
+div .splash{
     color: aqua;
+    text-decoration-line: underline;
+    font-weight: 700;
+    
 }   
 
